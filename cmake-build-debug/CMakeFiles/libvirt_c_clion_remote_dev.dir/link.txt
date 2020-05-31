@@ -1,0 +1,1 @@
+/usr/bin/cc  -g    CMakeFiles/libvirt_c_clion_remote_dev.dir/main.c.o  -o libvirt_c_clion_remote_dev -rdynamic 
