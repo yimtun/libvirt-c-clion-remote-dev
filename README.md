@@ -9,7 +9,9 @@ rpm -ql libvirt-devel  | grep libvirt.so
 
 
 yum install centos-release-scl-rh
+
 yum install devtoolset-8-gdb
+
 cp /opt/rh/devtoolset-8/root/bin/gdb /usr/bin/
 
 
