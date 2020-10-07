@@ -4,6 +4,7 @@ yum -y install  libvirt-devel
 
 
 rpm -ql libvirt-devel  | grep libvirt.so
+
 /usr/lib64/libvirt.so
 
 
