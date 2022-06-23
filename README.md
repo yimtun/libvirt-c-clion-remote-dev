@@ -34,6 +34,11 @@ gdb --version
 GNU gdb (GDB) Red Hat Enterprise Linux 8.2-3.el7
 ```
 
+
+
+## clion coonfig
+
+```
 toolchain   remote
 
 cmake  toolchain  remot host
@@ -42,5 +47,7 @@ cmake  toolchain  remot host
 运行调试配置 
 
 CMake Application
+
+```
 
 
