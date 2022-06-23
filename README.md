@@ -1,5 +1,11 @@
 # libvirt-c-clion-remote-dev
 
+
+
+## remote linux server
+
+
+```
 yum -y install  libvirt-devel
 
 
@@ -26,7 +32,7 @@ yum -y install cmake-2.8.12.2-2.el7
 
 gdb --version
 GNU gdb (GDB) Red Hat Enterprise Linux 8.2-3.el7
-
+```
 
 toolchain   remote
 
