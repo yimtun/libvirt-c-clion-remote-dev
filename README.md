@@ -19,7 +19,8 @@ yum install centos-release-scl-rh
 
 yum install devtoolset-8-gdb
 
-cp /opt/rh/devtoolset-8/root/bin/gdb /usr/bin/
+#cp /opt/rh/devtoolset-8/root/bin/gdb /usr/bin/
+scl enable  devtoolset-8  bash
 
 
 
