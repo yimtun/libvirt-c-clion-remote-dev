@@ -7,7 +7,7 @@ int main() {
     virConnectPtr conn;
     virDomainPtr domain;
     virStreamPtr stream;
-    const char *uri = "qemu:///system";  // Libvirt URI
+    const char *uri = "qemu+tcp://10.211.55.8/system";  // Libvirt URI
     const char *vm_name = "default_virtualmachine-sample";      // 虚拟机名称
 
     // 打开到 libvirt 的连接
